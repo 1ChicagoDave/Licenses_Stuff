@@ -1,0 +1,30 @@
+
+Will all of those work together with an Arduino UNO? Yes. 
+
+If you are new to Arduino AND electronics in general, I would recommend against attempting to get all of those to work with Arduino right now. They have different voltage ranges, most under 5V, 
+
+Quick answer - There are many sensor boards which use I2C to connect to Arduino. This means they ALL connect to same 2 pins on Arduino and can all be used together. They often come with two or more of those functions combined, have on-board voltage regulators, and have libraries & tutorials available to make implementation easier. 
+
+Depending on your goal of this project....
+• If you just want to experiment & learn electronics using those sensors and Arduino....? 
+       Then, go ahead. Buy them. Work on getting each one working separately (just Arduino and [u]one[/u] sensor at a time). Then, figure out how to use more than one at a time. Eventually, you will get all working together, and you will have learned a lot (Or...thrown them all out of the window after a very frustrating three days.)  :smiley-eek-blue:
+
+• If you have an idea in mind which requires Temp, Pressure,  and Accelerometer values....you are more interested in the completed project than learning how & why things work or don't work, and you don't want to be discouraged from continuing with electronics.....?
+       Then, I would strongly suggest (a) Staying away from eBay dealers and unknown, super-cheap parts dealers with poor service history. If something doesn't 'work', you may not know if you connected or coded something incorrectly....or if it's just a damaged component.
+[url=http://www.banggood.com/forum-40.html] Banggood order & delivery feedback[/url]
+       (b)  Purchasing well-supported (tutorials, needed libraries, excellent customer response), open-source hardware solutions & breakouts from the company which designed and supports that product.  This way, if you follow the tutorial perfectly and it doesn't work, you can directly ask the designers for help. If it still doesn't work, they can confirm that and send you a (usually free) replacement. 
+
+Example: 
+Here is BMP085 pressure sensor you linked to above -
+[img][/img]
+Here is the same BMP085 on a board designed and sold by a reputable source. 
+[img]https://www.adafruit.com/images/medium/391_MED.jpg[/img]
+Twice as many components and one more connection pin. 
+
+
+
+Here are some other good alternatives -
+[url]http://www.adafruit.com/category/35_114[/url]
+[url=https://www.sparkfun.com/products/11824]Sparkfun Pressure & Temp sensor[/url]
+
+And some really great Arduino [url=http://learn.adafruit.com/search?q=Arduino]tutorials[/url] to give you ideas. 
